@@ -13,7 +13,7 @@ import UnitConverter from './pages/UnitConverter';
 import GPACalculator from './pages/GPACalculator';
 import ScientificCalculator from './pages/ScientificCalculator';
 import ScrollToTop from './components/ScrollToTop';
-
+import GoogleAnalytics from './components/GoogleAnalytics';
 // Utility Pages
 import About from './pages/About';
 import Contact from './pages/Contact';
@@ -24,6 +24,7 @@ import Disclaimer from './pages/Disclaimer';
 export default function App() {
   return (
     <BrowserRouter>
+      <GoogleAnalytics />
       <ScrollToTop />
       <div className="flex flex-col min-h-screen bg-white text-blue-700 transition-colors duration-200">
         <Navbar />
