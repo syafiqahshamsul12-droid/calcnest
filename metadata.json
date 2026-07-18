@@ -1,0 +1,6 @@
+{
+  "name": "CalcNest",
+  "description": "A production-ready suite of 10 calculators including Age, BMI, Days Between Dates, Loan, Discount, Average, GPA, Unit Converter, and Scientific Calculators.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
