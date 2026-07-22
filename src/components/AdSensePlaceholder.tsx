@@ -39,7 +39,7 @@ export default function AdSensePlaceholder({ type, children, id = 'adsense-slot'
     >
       <div className="w-full flex flex-col items-center justify-center bg-gray-50/50 hover:bg-gray-50 rounded-xl border border-dashed border-gray-200 p-4 transition-colors duration-200">
         <span className="text-[10px] font-mono tracking-widest text-gray-400 uppercase mb-2">
-          Sponsored Link
+          Advertisement
         </span>
         {children ? (
           <div className="w-full flex justify-center">{children}</div>
